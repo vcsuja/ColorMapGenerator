@@ -3,7 +3,7 @@
 %% User Inputs & Load files
 n=[1 1.4 1]; % Refractive index triplet
 numColors=5000; %Colors Resolved every 5000/numColors nm
-optics=csvread('data/optics306_filter.csv',4,0); % Sample optics data
+optics=csvread('data/optics306_filter.csv',4,0); % Sample optics data [*** GENERATE THE RELAVENT OPTICS BEFORE ACTUAL USE ***]
 numPlots=4;
 %% Generate 
 ColorMap=generateColorMap(optics,n,numColors,2.03,1.5,1);
